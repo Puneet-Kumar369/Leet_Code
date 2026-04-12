@@ -24,7 +24,7 @@ class Solution {
         nums[j] = temp;
     }
 
-    void reverse(int[] nums, int i, int j) {
+    public void reverse(int[] nums, int i, int j) {
         while (i < j) {
             swap(nums, i++, j--);
         }
