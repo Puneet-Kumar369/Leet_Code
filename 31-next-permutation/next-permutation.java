@@ -18,13 +18,13 @@ class Solution {
         reverse(nums, i + 1, n - 1);
     }
 
-    public void swap(int[] nums, int i, int j) {
+    void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
     }
 
-    public void reverse(int[] nums, int i, int j) {
+    void reverse(int[] nums, int i, int j) {
         while (i < j) {
             swap(nums, i++, j--);
         }
